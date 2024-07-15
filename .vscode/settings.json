@@ -1,0 +1,15 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "none",
+    "explorer.compactFolders": false,
+    "editor.fontSize": 18,
+    "code-runner.clearPreviousOutput":true,
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
+    "python.defaultInterpreterPath": "python",
+    "code-runner.executorMap": {
+    "python": "cls ; python -u"
+}
+
+
+}
