@@ -1,4 +1,4 @@
-nome = input('Digite seu nome: ')
+nome = input('Digite seu nome: ');
 idade = input('\nDigite sua idade: ')
 if nome == '' or idade == '':
     print('\nDesculpe, você deixou campos vazios.')

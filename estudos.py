@@ -45,7 +45,7 @@ if 'a' in nome:
 elif ('a' not in nome):
     print('nao tem "a" no nome')
 
-#INTERPOLAÇÃO DE STRINGS --->
+#INTERPOLAÇÃO DE STRINGS -->
 s - string
 d e i - int
 f - float

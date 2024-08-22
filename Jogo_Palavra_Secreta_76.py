@@ -14,7 +14,7 @@ na palavra secreta.
 Faça a contagem de tentativas do seu
 usuário.
 """
-palavra_secreta = 'chromatica'              #definição da palavra (editar conforme o desejado)
+palavra_secreta = 'hopelessfountainkingdom'              #definição da palavra (editar conforme o desejado)
 palavra_escondida = ''                      #é a palavra com asteriscos, conforme vai sendo adivinhada
 tentativas = 0                              #variável que armazena tentativas (começa em 0)
 vetor = []                                  #vetor que armazena os caracteres mutáveis que serão substituídos conforme adivinhados

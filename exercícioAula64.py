@@ -8,4 +8,4 @@ while x <= (len(nome)-1):       #começa no primeiro caractere e percorre o nome
     nova_string+= nome[x] + '*' #será sempre adicionado a nova string, cada caractere do nome + '*'
     x+=1                        #avança o caractere
 
-print(nova_string)
+print(nova_string);
