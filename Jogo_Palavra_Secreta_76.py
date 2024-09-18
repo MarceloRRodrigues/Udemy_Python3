@@ -14,6 +14,8 @@ na palavra secreta.
 Faça a contagem de tentativas do seu
 usuário.
 """
+import os
+
 palavra_secreta = 'hOpelEsSfOuNtaInKinGdoM' #definição da palavra (editar conforme o desejado)
 palavra_escondida = ''                      #é a palavra com asteriscos, conforme vai sendo adivinhada
 tentativas = 0                              #variável que armazena tentativas (começa em 0)
@@ -58,6 +60,7 @@ while palavra_escondida != palavra_secreta: #enquanto a palavra não for adivinh
         continue                            #retorna ao início do loop
     print('\n')
     palavra_escondida = ''.join(vetor)      #armazena as posições do vetor na palavra escondida em formato de string
+    os.system("cls")
     print('Palavra secreta: ',end='')       #printa a palavra secreta com as letras já adivinhadas
     for posicao in vetor:
         print(posicao,end='')
